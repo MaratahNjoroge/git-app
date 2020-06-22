@@ -9,7 +9,7 @@
 This is an angular cli application that displays a github username and generates the users information. 
 
 ## Live Page 
-https://maratahnjoroge.github.io/qoute-app/ 
+https://maratahnjoroge.github.io/git-app/
 
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.7.
@@ -41,9 +41,9 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 ## Installation / Setup instruction
 * Open Terminal {Ctrl+Alt+T}
 
-* git clone ```https://maratahnjoroge.github.io/qoute-app/```
+* git clone ```https://maratahnjoroge.github.io/git-app/```
 
-* cd Quotes-app
+* cd git-app
 
 * code . or atom . based on the text editor you have.
 
