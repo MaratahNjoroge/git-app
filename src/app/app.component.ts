@@ -6,12 +6,14 @@ import { Component } from '@angular/core';
   <!--navbar-->
   <app-navbar></app-navbar>
 
-  <!--home-->
-  <app-home></app-home>
+  
+  
+  <!-- routes-->
+  <router-outlet></router-outlet>
 
   
   `
 })
 export class AppComponent {
-  title = 'git-app';
+ 
 }
