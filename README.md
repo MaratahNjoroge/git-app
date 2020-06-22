@@ -1,4 +1,16 @@
-# GitApp
+# QuotesApp
+
+## Author
+
+[MaratahNjoroge](https://github.com/MaratahNjoroge/git-app)
+
+## Description
+
+This is an angular cli application that displays a github username and generates the users information. 
+
+## Live Page 
+https://maratahnjoroge.github.io/qoute-app/ 
+
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.7.
 
@@ -25,3 +37,31 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+## Installation / Setup instruction
+* Open Terminal {Ctrl+Alt+T}
+
+* git clone ```https://maratahnjoroge.github.io/qoute-app/```
+
+* cd Quotes-app
+
+* code . or atom . based on the text editor you have.
+
+## Technologies Used
+
+* [HTML5](https://github.com/topics/html5)
+* [CSS](https://github.com/topics/css3)
+* [AngulerCLI]
+* markdown
+* [Bootstrap](https://github.com/topics/bootstrap)
+
+## Known Bugs
+* The DaysPipe does not work properly.
+
+## Contact Information 
+
+If you have any question or contributions, please email me at [maratah7@gmail.com]
+
+## License
+* *MIT License:*
+* Copyright (c) 2020 **Maratah Njoroge**
