@@ -4,7 +4,7 @@ import { Component, OnInit } from '@angular/core';
   selector: 'app-navbar',
   template:`
   <!--Navbar -->
-  <nav class="mb-1 navbar navbar-expand-lg bg-transparent">
+  <nav class="mb-1 navbar navbar-expand-lg bg-gradient">
     <a class="navbar-brand" href="#">GitHub</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent-333"
       aria-controls="navbarSupportedContent-333" aria-expanded="false" aria-label="Toggle navigation">
@@ -13,14 +13,14 @@ import { Component, OnInit } from '@angular/core';
     <div class="collapse navbar-collapse" id="navbarSupportedContent-333">
       <ul class="navbar-nav mr-auto">
         <li class="nav-item active">
-          <a class="nav-link" href="#">Home
-           
+          <a class="nav-link" routerLink="#">           
           </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Features</a>
+          <a class="nav-link" routerLink="/contact">Contact</a>
         </li>
-       
+        
+        
         
       </ul>
       <ul class="navbar-nav ml-auto nav-flex-icons">
