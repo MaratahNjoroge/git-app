@@ -19,14 +19,14 @@ import { DOCUMENT } from '@angular/common';
              </video>
              <div class="mask">
                 <div class="text-center">
-                     <div class="col-4 offset-4">
-                         <h1>GitHub Search<i class="fab fa-github"></i></h1>
+                     <div class="col-6 offset-4">
+                         <h1><i class="fab fa-github"></i></h1>
                           <h3 class=""></h3>
                             <div class="row">
                                <div class="col-md-8">
                                   <form>
                                      <div class="form-group search">                                   
-                                         <input type="text" class="form-control" placeholder="GitHub Name" name="username" [(ngModel)]="username" (keyup)="search()">
+                                         <input type="text" class="form-control" placeholder="MaratahNjoroge" name="username" [(ngModel)]="username" (keyup)="search()">
                                      </div>                     
                                  </form>
                               </div>   
