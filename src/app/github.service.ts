@@ -19,5 +19,5 @@ export class GithubService {
     changeUserNames(username: string) {
       this.username = username;
     }
-
+  
 }
