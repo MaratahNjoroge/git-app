@@ -14,43 +14,40 @@ import { DOCUMENT } from '@angular/common';
     <div class="carousel-inner" role="listbox">
        <div class="carousel-item active">
            <div class="view  rgba-black-strong">
-           <video class="video-fluid" autoplay loop muted>
-           <source src="https://mdbootstrap.com/img/video/Agua-natural.mp4" type="video/mp4" />
-         </video>
-                   <div class="mask">
-                       <div class="text-center">
-                          <div class="col-4 offset-4">
-                           <h1>GitHub Search<i class="fab fa-github"></i></h1>
-                           <h3 class=""></h3>
-                           <div class="row">
-                           <div class="col-md-8">
-                               <form>
-                                   <div class="form-group search">
-                                   
-                                       <input type="text" class="form-control" placeholder="GitHub Name" name="username"
-                                           [(ngModel)]="username" (keyup)="search()">
-                                   </div>
-                     
-                               </form>
-                           </div>   
-                       </div>
-                         </div>
-                      </div>
-                       <div class="text-center">
-                         <button type="button" class="btn btn-lg btn-gradient"><a href="{{user.html_url}}" target="_blank">Show on github</a></button>
-                        </div>
-           </div>
-        </div>
-       </div>
-    </div>
-
-<div class="container">
-  <div *ngIf="user">
-      <div class="panel panel-default">
-          <div class="panel-heading">
-              <h3 class="panel-title">{{user.name}}</h3>
+              <video class="video-fluid" autoplay loop muted>
+                  <source src="https://mdbootstrap.com/img/video/Agua-natural.mp4" type="video/mp4" />
+             </video>
+             <div class="mask">
+                <div class="text-center">
+                     <div class="col-4 offset-4">
+                         <h1>GitHub Search<i class="fab fa-github"></i></h1>
+                          <h3 class=""></h3>
+                            <div class="row">
+                               <div class="col-md-8">
+                                  <form>
+                                     <div class="form-group search">                                   
+                                         <input type="text" class="form-control" placeholder="GitHub Name" name="username" [(ngModel)]="username" (keyup)="search()">
+                                     </div>                     
+                                 </form>
+                              </div>   
+                           </div>
+                     </div>
+                  </div>
+                  <div class="text-center">
+                      <button type="button" class="btn btn-lg btn-gradient"><a href="{{user.html_url}}" target="_blank">Show on github</a></button>
+                  </div>
+               </div>
           </div>
-          <div class="panel-body">
+        </div>
+     </div>
+
+  <div class="container">
+    <div *ngIf="user">
+       <div class="panel panel-default">
+           <div class="panel-heading">
+              <h3 class="panel-title">{{user.name}}</h3>
+           </div>
+           <div class="panel-body">
               <div class="row">
                   <div class="col-md-4">
                       <img src="{{user.avatar_url}}" class="img-thumbnail github-avatar" alt="Avi"><br>
