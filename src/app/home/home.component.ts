@@ -47,7 +47,7 @@ import { DOCUMENT } from '@angular/common';
            <div class="panel-heading">
               <h3 class="panel-title">{{user.name}}</h3>
            </div>
-           <div class="panel-body">
+          <div class="panel-body">
               <div class="row">
                   <div class="col-md-4">
                       <img src="{{user.avatar_url}}" class="img-thumbnail github-avatar" alt="Avi"><br>
