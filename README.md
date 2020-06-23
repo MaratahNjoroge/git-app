@@ -1,4 +1,4 @@
-# QuotesApp
+# git-app
 
 ## Author
 
