@@ -21,7 +21,7 @@ import { DOCUMENT } from '@angular/common';
                        <div class="text-center">
                           <div class="col-4 offset-4">
                            <h1>GitHub Search<i class="fab fa-github"></i></h1>
-                           <h3 class="">Type in</h3>
+                           <h3 class=""></h3>
                            <div class="row">
                            <div class="col-md-8">
                                <form>
