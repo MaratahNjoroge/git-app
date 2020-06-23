@@ -5,7 +5,6 @@ import { Component, OnInit } from '@angular/core';
   template: `
 
   <!--form goes here-->
-  
   <div class="contact">
   <form (ngSubmit)="processForm()">
   <div class="modal fade" id="modalContactForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
@@ -97,7 +96,7 @@ export class ContactComponent implements OnInit {
 
 
   processForm() {
-    const allInfo = ` ${this.name}. We have received your message through ${this.email}. We will get back to you soon `;
+    const allInfo = ` ${this.name}. We have received your feedback through ${this.email}. We will get back to you soon.`;
     alert(allInfo); 
   }
 
